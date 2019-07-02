@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rel">
+      <TextView
+           android:id="@+id/textView"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginEnd="16dp"
+           android:layout_marginBottom="9dp"
+           android:text="Tetris"
+           android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+           android:textColor="#03A9F4"
+           android:textSize="26sp"
+           android:textStyle="bold"
+           android:typeface="normal"
+           android:fontFamily="@font/bold" />
+
+       <TextView
+           android:id="@+id/scoreheader"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="335dp"
+           android:layout_marginTop="0dp"
+           android:layout_marginEnd="16dp"
+           android:layout_marginBottom="9dp"
+           android:text="Score"
+           android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+           android:textColor="#000000"
+           android:textSize="14sp"
+           android:textStyle= "bold"
+           android:typeface="normal"
+           android:fontFamily="@font/bold"/>
+       <TextView
+           android:id="@+id/highscore"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="335dp"
+           android:layout_marginTop="45dp"
+           android:layout_marginBottom="9dp"
+           android:text="High 0"
+           android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+           android:textColor="#000000"
+           android:textSize="12sp"
+           android:typeface="normal"
+           android:fontFamily="@font/medium"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="22dp"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:typeface="normal"
+        android:fontFamily="@font/medium"/>
+
+    <com.example.tetris.BoardView
+        android:id="@+id/board"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/cardview_light_background" />
+
+    <Button
+        android:id="@+id/restart"
+        android:drawableLeft="@drawable/restart"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/sound"
+        android:drawableLeft="@drawable/soundon"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/darkmode"
+        android:drawableLeft="@drawable/darkmode"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/refresh"
+        android:drawableLeft="@drawable/refresh"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

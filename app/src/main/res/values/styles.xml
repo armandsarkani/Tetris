@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/Medium</item>
+        <item name="colorPrimaryDark">@color/cardview_light_background</item>
+        <item name="android:windowBackground">@color/cardview_light_background</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Button.White" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+    <style name="Medium" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/medium</item>
+    </style>
+    <style name="MyAlert" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textAppearanceSmall">@style/small</item>
+        <item name="android:textAppearanceMedium">@style/medium</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="small" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/regular</item>
+    </style>
+    <style name="medium" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/medium</item>
+    </style>
+
+    </resources>
