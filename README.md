@@ -1,27 +1,14 @@
 
 
-# Assignment 3 - *Tetris*\*
+# Tetris\*
 
 
 
 ****Tetris**** A simple block game for Android.
 
-
-
-Team Name:
-
-* **Armand Ahadi-Sarkani**
-	- 60913515
-* **Kevin Selda**
-	- 95832573
-
-
-
 ## Functionalities
 
 [//]: # (Write [x] to mark off what was accomplished.<br/>)
-
-The following ****required**** functionality is complete:
 
 * [x] Puzzle pieces fall from the top of the screen.
 * [x] The player can move the puzzle piece one square to the left or right.
@@ -34,9 +21,6 @@ The following ****required**** functionality is complete:
 * [x]  Keeps a running score.
 * [x]  Shows the next piece to fall.
 * [x]  Runs on emulator Android 9.0 (Pie) - API Level 28.
-
-[//]: # (* [ ] Got any features?)
-The following ****additional**** features are implemented:<br/>
 * [x] "New Game" button 
 * [x] Alert when the game is over, with buttons for the user to restart the game or exit the app
 * [x] Dynamic compatibility with many different screen sizes/resolutions due to variable size of Tetris grid based on device resolution. Tested and works best with Pixel 3 XL and Pixel 2 XL.
