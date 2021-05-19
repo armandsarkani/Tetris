@@ -25,7 +25,7 @@
 * [x] Alert when the game is over, with buttons for the user to restart the game or exit the app
 * [x] Dynamic compatibility with many different screen sizes/resolutions due to variable size of Tetris grid based on device resolution. Tested and works best with Pixel 3 XL and Pixel 2 XL.
 * [x] Support for multi-touch swiping gestures (instead of buttons) to move pieces left, right, down (accelerate), or rotate pieces (up). Rejects swipes that would place the piece outside of the safe zone for the grid.
-* [x] Special "score booster" easter egg :)
+* [x] Special "score booster" Easter egg :)
 * [x] "High score" feature that saves highest score locally into the phone's storage
 * [x] Plays official Tetris theme song\* (with mute button that saves preferences)
 * [x] Dark mode that turns entire user interface black (saves preferences for future launches)!
