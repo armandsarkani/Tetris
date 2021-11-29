@@ -31,4 +31,4 @@
 * [x] Dark mode that turns entire user interface black (saves preferences for future launches)!
 * [x] Ability for user to change the current tetromino (to another random one) while it is still falling
 
-\ "Tetris" and theme song are a registered trademark of The Tetris Company, LLC.
+"Tetris" and its theme song are a registered trademark of The Tetris Company, LLC.
